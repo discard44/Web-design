@@ -1,0 +1,35 @@
+#container{
+	width: 1000px;
+	position: relative;
+	margin: 0 auto 0 auto;
+}
+.top {
+	float: right;
+}
+.top a {
+	display: inline;
+}
+#title {
+	float: left;
+}
+header {
+	height: 250px;
+	background: url("../images/keyboardbannerlarge.png") no-repeat right 0px;
+	clear: both;
+}
+aside ol {
+	width: 100%;
+	height: 36px;
+}
+aside li {
+	float:left;
+	margin-top: 10px;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+section {
+	clear: both;
+}

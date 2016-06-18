@@ -1,0 +1,47 @@
+/*for all reponsive design*/
+#container{
+    max-width: 920px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+header {
+    background-image: url("fishingimages/riverlarge.png");
+    width: 100%;
+    height: 275px;
+}
+a.logo {
+    width:135px;
+    height:30px;
+    
+}
+/* content div changes*/
+#content {
+    padding-right: 10px;
+}
+#content ul {
+   width: 30%;
+   text-align: center;
+   float: left;
+}
+#content section {
+    width: 67%;
+    float: right;
+    text-align: left;
+    line-height: 2.0;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/* clear float*/
+
+footer{
+    clear: both;
+    background-color: #33bbff;
+    padding: 10px 0 10px 0;
+}
+
+
+@media screen and (max-width: 920px) {
+    footer {
+        padding-left: 10px;
+    }
+}

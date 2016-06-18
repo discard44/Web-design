@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, sans-serif, serif;
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+}
+
+/* top nav text change css*/
+.top {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: black;
+	text-align: right;
+	padding: 20px 0 10px 0;
+}
+.top a {
+	padding-left: 20px;
+	color: black;
+}
+.top a:hover {
+	text-decoration: underline;
+}
+/* title padding and margin*/
+#title {
+	font-size: 1.4em;
+	padding-top: 10px;
+}
+/* second nav */
+aside {
+	text-align: center;
+}
+aside ol {
+	list-style-type: none;
+	background-color: teal;
+}
+aside ol a{
+	color: black;
+	padding: 10px;
+	font-weight: bold;
+}
+aside ol a:hover {
+	background-color: darkgrey;
+	margin-top: 10px;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+}
+.active {
+	background-color: darkgrey;
+	color: white;
+	text-decoration: underline;
+}
+section {
+	padding: 10px;
+}
+section p {
+	padding-top: 5px;
+	text-indent: 30px;
+	line-height: 2;
+	font-size: 1.1em;
+}
+section h3 {
+	font-size: 1.4em;
+}
+
